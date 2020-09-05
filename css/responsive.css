@@ -1,0 +1,115 @@
+@media (min-width:375px) and (max-width:736px){
+    .nav-bar ul li{
+        display: none;
+    }
+    .mobile-menu{
+        display: block;
+        font-size: 1.6rem;
+        padding-left: 2rem;
+        padding-bottom: 1.2rem;
+        color: #fff;
+    }
+    .side-menu ul{
+        list-style-type: none;
+    }
+    .side-menu ul li{
+        padding: .8rem;
+    }
+    .side-menu ul li a{
+        color: #fff;
+        font:  italic normal normal 18px/1.4em 'playfair display',serif;
+        text-decoration: none;
+    }
+    .click{
+        cursor: pointer;
+    }
+    .close{
+        font-size: 18px;
+        padding-left: 18rem;
+        cursor: pointer;
+    }
+    header{
+        flex-direction: column;
+    }
+    .head-section{
+        height: 33rem;
+        width: auto;
+    }
+    .text-box{
+        position: relative;
+        top: 40%;
+        left: 8%;
+    }
+    .text-box h1{
+    font: normal normal bold 52px/1.4em playfairdisplay-bold,'playfair display',serif;
+    }
+    .text-box .para{
+        font: italic normal normal 18px/1.4em 'playfair display',serif;
+    }
+    .second-head-section{
+        width: auto;
+    }
+    #about{
+        width: auto;
+        height: 39rem;
+        padding: 1.5rem;
+    }
+    .about-section p{
+        width: 382px;
+        padding: 2rem;
+        margin: 0;
+        display: block;
+    }
+    .promo-1{
+        width: auto;
+    }
+    .parent-promo-1{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .child{
+        width: 80%;
+    }
+    .promo-2{
+        width: auto;
+        height: auto;  
+    }
+    .promo-2-heading{
+        margin: 1rem;
+        padding: 1rem;
+    }
+    .warpar{
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-left: 1rem;
+    }
+    .promo-3{
+        width: auto;
+        flex-direction: column;
+    }
+    .awards{
+        width: 80%;
+        margin-left: 2rem;
+    }
+    .contact{
+        display: inline-flex;
+        flex-direction: column;
+    }
+    .contact .awrd-box{
+        width: 80%;
+    }
+    .contact .awrd-box h1{
+        position: relative;
+        left: -4rem;
+    }
+    .contact .awrd-box p{
+        position: relative;
+        top: -4rem;
+        left: -10rem;
+    }
+    .contact .awrd-box ul li{
+        position: relative;
+        top: -4rem;
+        left: -10rem;
+    }
+}

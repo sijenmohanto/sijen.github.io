@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 62.5%;
+    font-family: Arial,Helvetica,sans-serif;
+    scrool-behavior:smooth;
+}
+.mobile-menu{
+    display: none;
+}
+nav{
+    background: #4f37ff;
+    text-align: start;
+}
+.nav-bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+}
+.nav-bar ul li{
+    margin: 1rem;
+    padding: 1rem;
+}
+.nav-bar ul li a{
+    padding: 1rem;
+    font: italic normal normal 16px/1.4em 'playfair display',serif;
+    font-size: 1.4rem;
+    font-style: italic;
+    text-decoration: none;
+    color: #fff;
+}
+.nav-bar ul li a:hover{
+    background: #8577ec;
+    border-radius: .5rem;
+}
+header{
+    display: inline-flex;
+    flex-direction: row;
+}
+.head-section{
+    height: 33rem;
+    width: 60rem;
+    background:linear-gradient(#05054d7a,#4e4ef45e), url('../image/computer desk 1.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    float: left;
+}
+.head-section .head-text-1{
+    font-weight: normal;
+    letter-spacing: 0.35rem;
+    text-transform: uppercase;
+    font: normal normal normal 24px/1.4em futura-lt-w01-light,sans-serif;
+}
+.text-box{
+    position: relative;
+    top: 50%;
+    left: 14%;
+    color: #fff;
+}
+.text-box h1{
+    font: normal normal bold 88px/1.4em playfairdisplay-bold,'playfair display',serif;
+}
+.text-box .para{
+    font: italic normal normal 21px/1.4em 'playfair display',serif;
+}
+.second-head-section{
+    width: 24.3rem;
+    height: 33rem;
+    float: left;
+    background: #4f37ff;
+}
+.second-head-section img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 1rem;
+    margin-left: 6rem;
+    margin-bottom: 2rem;
+}
+.second-head-section .name{
+    font-family: serif;
+    font-size: 2.9rem;
+    color: #fff;
+    margin-left: 4rem;
+}
+.second-head-section .subject{
+    width: 30rem;
+    font: normal normal normal 16px/1.4em futura-lt-w01-light,sans-serif;
+    letter-spacing: 0.2rem;
+    padding: 2rem 5rem;
+    padding-right: 7rem;
+    line-height: 1.6em;
+    color: #fff;
+}
+.second-head-section p{
+    font: normal normal normal 16px/1.4em futura-lt-w01-light,sans-serif;
+    font-style: italic;
+    margin: 0 5rem;
+    color: #fff;    
+}
+.second-head-section ul{
+    display: inline-flex;
+    list-style-type: none;
+    margin-left: 6rem;
+}
+.second-head-section ul li{
+    padding: 1rem;
+}
+.second-head-section ul li a{
+    color: #fff;
+    font-size: 1.4rem;
+}
+#about{
+    width: 85rem;
+    height: 28rem;
+    background: #4f47731c;
+/*    transform: 0.3s;*/
+}
+.about-section{
+    height: 33rem;
+    width: 60rem;
+    margin: 0 auto;
+    position: relative;
+    top: 3rem;
+}
+.about-section h1{
+    color: rgba(85,105,220);
+    font: italic normal normal 40px/1.4em 'playfair display',serif;
+}
+.about-section span{
+    font: normal normal normal 16px/1.4em futura-lt-w01-light,sans-serif;
+    color: rgba(85,105,220);
+    letter-spacing: 0.15rem;
+    text-transform: uppercase;
+}
+.about-section p{
+    font: normal normal normal 21px/1.4em futura-lt-w01-light,sans-serif;
+    padding-top: 3rem;
+    line-height: 2.5rem;
+    color: #0d0d0db8;
+}
+.promo-1{
+    width: 85rem;
+    height: auto;
+    background: #f2f2f2;
+    transform: 0.6s;
+}
+.parent-promo-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child{
+    width: 35%;
+    margin: 1.5rem;
+    padding: 1.5rem;
+}
+.child-1 h1{
+   color: rgba(85,105,220);
+   font: italic normal normal 40px/1.4em 'playfair display',serif; 
+}
+.learnd{
+    color: rgba(85,105,220);
+    font: normal normal normal 16px/1.4em futura-lt-w01-light,sans-serif;
+}
+.sec{
+    font: normal normal normal 16px/1.4em futura-lt-w01-book,sans-serif;
+    margin: 2rem 0;
+}
+.exp{
+    position: relative;
+    top: -3rem;
+}
+.child-2 h1{
+   color: rgba(85,105,220);
+   font: italic normal normal 40px/1.4em 'playfair display',serif; 
+}
+.workd{
+   color: rgba(85,105,220);
+   font: normal normal normal 16px/1.4em futura-lt-w01-light,sans-serif; 
+}
+.promo-2{
+    width: 85rem;
+    height: auto;
+    background: #fff;
+}
+.promo-2-heading{
+    margin: 2rem;
+    padding: 2rem;
+    margin-left: 7rem;
+}
+.promo-2-heading h1{
+    color: rgba(85,105,220);
+    font: italic normal normal 38px/1.4em 'playfair display',serif;
+}
+.promo-2-text{
+   color: rgba(85,105,220);
+   font: normal normal normal 16px/1.4em futura-lt-w01-light,sans-serif;
+   word-spacing: .2rem;
+}
+.warpar{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3rem;
+}
+.single-skill{
+    width: 30%;
+    margin: 1.5rem;
+    padding: 1.5rem;
+}
+.promo-3{
+    width: 85rem;
+    height: auto;
+    background: #f2f2f2;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.awards{
+    width: 35%;
+}
+.awrd-box{
+    margin: 1.5rem;
+    padding: 1.5rem;
+    
+}
+.awrd-box h1{
+    color: rgba( 85,105,220);
+    font: italic normal normal 40px/1.4em 'playfair display',serif;
+}
+.awrd-text{
+    font: normal normal normal 16px/1.4em futura-lt-w01-light,sans-serif;
+    color: rgba( 85,105,220);
+    word-spacing: .2rem;
+}
+.awards p{
+    font-size: 1.4rem;
+    margin: 0 3rem;
+    margin-bottom: 3rem;
+    color: #0d0d0db8;
+}
+.contact{
+    width: 85rem;
+    height: auto;
+    background: #cfccd7a3;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact .awrd-box{
+    width: 35%;
+}
+.contact .awrd-box p{
+    font: normal normal normal 16px/1.4em futura-lt-w01-light,sans-serif;
+    font-style: italic;
+    margin: 0 5rem;
+    color: rgba( 85,105,220);    
+}
+.contact .awrd-box ul{
+    display: inline-flex;
+    list-style-type: none;
+    margin-left: 6rem;
+}
+.contact .awrd-box ul li{
+    padding: 1rem;
+}
+.contact .awrd-box ul li a{
+    color:rgba( 85,105,220);
+    font-size: 1.4rem;
+}
+.footer{
+    background: #4f37ff;
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 1.2rem;
+}
+.footer p{
+    color: #fff;
+}
