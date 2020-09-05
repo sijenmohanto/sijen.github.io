@@ -113,3 +113,261 @@
         left: -10rem;
     }
 }
+@media (min-width:250px) and (max-width:374px){
+    .nav-bar ul li{
+        display: none;
+    }
+    .mobile-menu{
+        display: block;
+        font-size: 1.5rem;
+        padding-left: 1.5rem;
+        padding-bottom: 1.2rem;
+        color: #fff;
+    }
+    .side-menu ul{
+        list-style-type: none;
+    }
+    .side-menu ul li{
+        padding: .8rem;
+        padding-left: .6rem;
+    }
+    .side-menu ul li a{
+        color: #fff;
+        font:  italic normal normal 18px/1.4em 'playfair display',serif;
+        text-decoration: none;
+    }
+    .click{
+        cursor: pointer;
+    }
+    .close{
+        font-size: 18px;
+        padding-left: 10rem;
+        cursor: pointer;
+    }
+    header{
+        flex-direction: column;
+    }
+    .head-section{
+        height: 20rem;
+        width: auto;
+    }
+    .text-box{
+        position: relative;
+        top: 35%;
+        left: 5%;
+    }
+    .head-section .head-text-1{
+        font: normal normal normal 22px/1.4em futura-lt-w01-light,sans-serif;
+    }
+    .text-box h1{
+        font: normal normal bold 36px/1.4em playfairdisplay-bold,'playfair display',serif;
+    }
+    .text-box .para{
+        font: italic normal normal 12px/1.4em 'playfair display',serif;
+    }
+    .second-head-section{
+    width: auto;
+    height: 33rem;
+    float: left;
+    background: #4f37ff;
+    }
+    .second-head-section img{
+        height: 180px;
+        width: 180px;
+        border-radius: 50%;
+        margin-top: 1rem;
+        margin-left: 2rem;
+        margin-bottom: 1.5rem;
+    }
+        .second-head-section .name{
+        font-family: serif;
+        font-size: 2.2rem;
+        color: #fff;
+        margin-left: 1rem;
+    }
+    .second-head-section .subject{
+        width: 30rem;
+        font: normal normal normal 15px/1.4em futura-lt-w01-light,sans-serif;
+        letter-spacing: 0.2rem;
+        padding: 1.5rem 1rem;
+        padding-right: 13rem;
+        line-height: 1.4rem;
+        color: #fff;
+    }
+    .second-head-section p{
+        font: normal normal normal 15px/1.4em futura-lt-w01-light,sans-serif;
+        font-style: italic;
+        margin: 0 1rem;
+        color: #fff;    
+    }
+    .second-head-section ul{
+        display: inline-flex;
+        list-style-type: none;
+        margin-left: 1rem;
+    }
+    .second-head-section ul li{
+        padding: 1rem;
+    }
+    .second-head-section ul li a{
+        color: #fff;
+        font-size: 1.4rem;
+    }
+     #about{
+        width: auto;
+        height: 28rem;
+        padding: 1.5rem;
+        
+    }
+    .about-section{
+        position: relative;
+        top: 1rem;
+    }
+    .about-section h1{
+       color: rgba(85,105,220);
+       font: italic normal normal 35px/1.4em 'playfair display',serif;
+   }
+   .about-section span{
+       font: normal normal normal 14px/1.4em futura-lt-w01-light,sans-serif;
+       color: rgba(85,105,220);
+       letter-spacing: 0.15rem;
+       text-transform: uppercase;
+   }
+   .about-section p{
+       width: 210px;
+       font: normal normal normal 14px/1.4em futura-lt-w01-light,sans-serif;
+       padding-top: 1rem;
+       line-height: 1.5rem;
+       color: #0d0d0db8;
+   }
+   .promo-1{
+        width: auto;
+    }
+    .parent-promo-1{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .child{
+        width: 80%;
+    }
+    .promo-2{
+        width: auto;
+        height: auto;  
+    }
+    .promo-2-heading{
+        margin: 1rem;
+        padding: 1rem;
+    }
+    .child{
+        width: 80%;
+        margin: 1rem;
+        padding: 1rem;
+    }
+    .child-1 h1{
+        color: rgba(85,105,220);
+        font: italic normal normal 35px/1.4em 'playfair display',serif; 
+     }
+     .promo-2-heading{
+        margin: 1rem;
+        padding: 1rem;
+        padding-top: 2rem;
+        margin-left: 1rem;
+    }
+    .promo-2-heading h1{
+        color: rgba(85,105,220);
+        font: italic normal normal 28px/1.4em 'playfair display',serif;
+    }
+    .warpar{
+        display: inline-flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0rem;
+    }
+    .single-skill{
+        width: 80%;
+        margin: 1.5rem;
+        margin-top: 0;
+        padding: 1.5rem;
+    }
+    .promo-3{
+        width: auto;
+        height: auto;
+        display: inline-flex;
+        flex-direction: column;
+    }
+    .awards{
+        width: 80%;
+        margin-left: 1rem;
+    }
+    .awards .awrd-box{
+        display: inline-flex;
+        flex-direction: column;
+    }
+    .awrd-box h1{
+        color: rgba( 85,105,220);
+        font: italic normal normal 33px/1.4em 'playfair display',serif;
+    }
+    .awrd-text{
+        font: normal normal normal 12px/1.4em futura-lt-w01-light,sans-serif;
+        color: rgba( 85,105,220);
+        word-spacing: .2rem;
+    }
+    .awards p{
+        font-size: 1.3rem;
+        margin: 0 1rem;
+        margin-bottom: 3rem;
+        color: #0d0d0db8;
+    }
+    .contact{
+        display: inline-flex;
+        flex-direction: column;
+    }
+    .contact .awrd-box{
+        width: 80%;
+    }
+    .contact{
+        width: auto;
+        height: auto;
+        background: #cfccd7a3;
+        display: inline-flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact .awrd-box{
+        width: 80%;
+    }
+     .contact .awrd-box h1{
+        position: relative;
+        left: -3rem;
+    }
+    .contact .awrd-box p{
+        position: relative;
+        top: -4rem;
+        left: -8rem;
+    }
+    .contact .awrd-box ul li{
+        position: relative;
+        top: -4rem;
+        left: -10rem;
+    }
+    .contact .awrd-box p{
+        font: normal normal normal 14px/1.4em futura-lt-w01-light,sans-serif;
+    }
+    .contact .awrd-box ul li{
+        position: relative;
+        top: -4rem;
+        left: -9rem;
+        margin-bottom: -3rem;
+    }
+    .contact .awrd-box ul li a{
+        color:rgba( 85,105,220);
+        font-size: 1.2rem;
+    }
+    .footer{
+        padding: 1.3rem;
+        font-size: 1rem;
+    }
+}
+
